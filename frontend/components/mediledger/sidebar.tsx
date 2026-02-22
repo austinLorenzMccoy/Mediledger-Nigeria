@@ -49,13 +49,12 @@ export function Sidebar({
         <div
           className="flex min-h-16 items-center gap-2.5 overflow-hidden border-b border-border-color px-4 py-5"
         >
-          <div
-            className="flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-full"
-            style={{ background: "linear-gradient(135deg, #4EC99A, #C9572A)" }}
+          <img
+            src="/mediledger-nigeria-logo.svg"
+            alt="MediLedger Nigeria"
+            className="h-8 w-auto cursor-pointer"
             onClick={onGoHome}
-          >
-            <Icon name="shield" size={16} color="#0D2B1F" />
-          </div>
+          />
           {!collapsed && (
             <span className="fade-in overflow-hidden whitespace-nowrap font-serif text-[17px] font-semibold text-text-primary">
               MediLedger<span className="text-terra">NG</span>

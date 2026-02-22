@@ -545,13 +545,14 @@ const LandingPage = ({ onEnter, wallet, onOpenWallet, onDisconnectWallet }) => {
         transition: "all 0.3s ease",
       }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <div style={{
-            width: 36, height: 36, borderRadius: "50%",
-            background: `linear-gradient(135deg, ${THEME.mint}, ${THEME.terra})`,
-            display: "flex", alignItems: "center", justifyContent: "center",
-          }}>
-            <Icon name="shield" size={18} color={THEME.forest} />
-          </div>
+          <img
+            src="/mediledger-nigeria-logo.svg"
+            alt="MediLedger Nigeria"
+            style={{
+              height: 36,
+              width: "auto",
+            }}
+          />
           <span style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 20, fontWeight: 600, letterSpacing: 1 }}>
             MediLedger<span style={{ color: THEME.terra }}>NG</span>
           </span>
@@ -738,7 +739,7 @@ const LandingPage = ({ onEnter, wallet, onOpenWallet, onDisconnectWallet }) => {
           MediLedger<span style={{ color: THEME.terra }}>NG</span>
         </div>
         <div style={{ color: THEME.textMuted, fontSize: 13 }}>
-          © 2025 MediLedger Nigeria. Built on Hedera. NDPR & HIPAA Compliant.
+          2025 MediLedger Nigeria. Built on Hedera. NDPR & HIPAA Compliant.
         </div>
         <div style={{ display: "flex", gap: 20 }}>
           {["Privacy", "Terms", "Docs", "GitHub"].map(l => (
@@ -789,22 +790,29 @@ const Sidebar = ({ active, setActive, collapsed, setCollapsed, onGoHome, isMobil
         <div style={{
           padding: "20px 16px",
           display: "flex", alignItems: "center",
-          gap: 10, borderBottom: `1px solid ${THEME.border}`,
+          borderBottom: `1px solid ${THEME.border}`,
           minHeight: 64, overflow: "hidden",
         }}>
-          <div style={{
-            width: 32, height: 32, borderRadius: "50%", flexShrink: 0,
-            background: `linear-gradient(135deg, ${THEME.mint}, ${THEME.terra})`,
-            display: "flex", alignItems: "center", justifyContent: "center",
-            cursor: "pointer",
-          }} onClick={onGoHome}>
-            <Icon name="shield" size={16} color={THEME.forest} />
-          </div>
+          <img
+            src="/mediledger-nigeria-logo.svg"
+            alt="MediLedger Nigeria"
+            style={{
+              height: 32,
+              width: "auto",
+              cursor: "pointer",
+            }}
+            onClick={onGoHome}
+          />
           {!collapsed && (
             <span style={{
-              fontFamily: "'Cormorant Garamond', serif", fontSize: 17, fontWeight: 600,
-              whiteSpace: "nowrap", overflow: "hidden",
-              animation: "fadeIn 0.2s ease",
+              marginLeft: 10,
+              fontFamily: "'Cormorant Garamond', serif",
+              fontSize: 17,
+              fontWeight: 600,
+              letterSpacing: 1,
+              color: THEME.textPrimary,
+              whiteSpace: "nowrap",
+              overflow: "hidden",
             }}>
               MediLedger<span style={{ color: THEME.terra }}>NG</span>
             </span>

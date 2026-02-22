@@ -73,12 +73,11 @@ export function LandingPage({ onEnter, wallet, onOpenWallet, onDisconnectWallet 
         }}
       >
         <div className="flex items-center gap-2.5">
-          <div
-            className="flex h-9 w-9 items-center justify-center rounded-full"
-            style={{ background: "linear-gradient(135deg, #4EC99A, #C9572A)" }}
-          >
-            <Icon name="shield" size={18} color="#0D2B1F" />
-          </div>
+          <img
+            src="/mediledger-nigeria-logo.svg"
+            alt="MediLedger Nigeria"
+            className="h-9 w-auto"
+          />
           <span className="font-serif text-xl font-semibold tracking-wide text-text-primary">
             MediLedger<span className="text-terra">NG</span>
           </span>
