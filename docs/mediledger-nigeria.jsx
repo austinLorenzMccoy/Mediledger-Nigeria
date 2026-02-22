@@ -897,7 +897,7 @@ const Sidebar = ({ active, setActive, collapsed, setCollapsed, onGoHome, isMobil
           }}>AO</div>
           {!collapsed && (
             <div style={{ overflow: "hidden" }}>
-              <div style={{ fontSize: 13, fontWeight: 500, whiteSpace: "nowrap" }}>Adaeze Okafor</div>
+              <div style={{ fontSize: 13, fontWeight: 500, whiteSpace: "nowrap" }}>Augustine Chibueze</div>
               <div className="token" style={{ fontSize: 10, color: THEME.mint }}>ID: 0.0.4829102</div>
             </div>
           )}
@@ -937,7 +937,7 @@ const OverviewPage = () => (
   <div className="fade-in">
     <div style={{ marginBottom: 32 }}>
       <h2 style={{ fontSize: "clamp(1.6rem, 3vw, 2.2rem)", marginBottom: 6 }}>
-        Good morning, <span style={{ color: THEME.terra }}>Adaeze</span> 👋
+        Good morning, <span style={{ color: THEME.terra }}>Augustine</span> 👋
       </h2>
       <p style={{ color: THEME.textMuted, fontSize: 14 }}>Here's your health data overview for today.</p>
     </div>
@@ -1116,7 +1116,7 @@ const SettingsPage = ({ wallet, onOpenWallet, onDisconnectWallet }) => {
           <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
             <div>
               <label style={{ fontSize: 12, color: THEME.textMuted, display: "block", marginBottom: 6 }}>Full Name</label>
-              <input defaultValue="Adaeze Okafor" />
+              <input defaultValue="Augustine Chibueze" />
             </div>
             <div>
               <label style={{ fontSize: 12, color: THEME.textMuted, display: "block", marginBottom: 6 }}>Email</label>

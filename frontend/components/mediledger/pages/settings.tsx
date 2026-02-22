@@ -47,7 +47,7 @@ export function SettingsPage({ wallet, onOpenWallet, onDisconnectWallet }: Setti
           <div className="flex flex-col gap-3.5">
             <div>
               <label className="mb-1.5 block text-xs text-text-muted">Full Name</label>
-              <input defaultValue="Adaeze Okafor" />
+              <input defaultValue="Augustine Chibueze" />
             </div>
             <div>
               <label className="mb-1.5 block text-xs text-text-muted">Email</label>

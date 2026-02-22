@@ -139,7 +139,7 @@ export function Sidebar({
           {!collapsed && (
             <div className="overflow-hidden">
               <div className="whitespace-nowrap text-[13px] font-medium text-text-primary">
-                Adaeze Okafor
+                Augustine Chibueze
               </div>
               <div className="font-mono text-[10px] text-mint">ID: 0.0.4829102</div>
             </div>
