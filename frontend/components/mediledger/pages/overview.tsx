@@ -50,7 +50,7 @@ export function OverviewPage() {
     <div className="fade-in">
       <div className="mb-8">
         <h2 className="mb-1.5 font-serif text-[clamp(1.6rem,3vw,2.2rem)] text-text-primary">
-          Good morning, <span className="text-terra">Adaeze</span>
+          Good morning, <span className="text-terra">Augustine</span>
         </h2>
         <p className="text-sm text-text-muted">{"Here\u2019s your health data overview for today."}</p>
       </div>
