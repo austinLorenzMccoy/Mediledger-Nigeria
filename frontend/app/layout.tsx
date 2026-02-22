@@ -24,7 +24,6 @@ const spaceMono = Space_Mono({
 export const metadata: Metadata = {
   title: 'MediLedger Nigeria - Decentralized Health Data Ecosystem',
   description: "Nigeria's first decentralized health data ecosystem — secured by zero-knowledge proofs, governed by patients, and powered by Hedera blockchain.",
-  generator: 'v0.app',
   icons: {
     icon: [
       {
